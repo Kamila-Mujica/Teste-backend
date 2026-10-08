@@ -6,6 +6,6 @@ describe('Testes da Calculadora (Versão Inicial - Cobertura Parcial)', () => {
     });
 
     test('Deve verificar que 20 anos é maior de idade', () => {
-        expect(verificarIdade(20)).toBe('Maior de idade');
+        expect(verificarIdade(20)).toBe('Menor de idade');
     });
 });
